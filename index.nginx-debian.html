@@ -1,27 +1,38 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html>
-<head>
-<title>Welcome to coding!</title>
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-</style>
-</head>
-<body>
-<h1>Welcome to coding!</h1>
-<p>Prcdvgbhnjmk,l.; If you see this page, you are born to code.
+	<head>
+		<title>Roger Skyline</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Roger Skyline</h1>
+						<p>If you see this page, you are born to code.
 Don't waste your time on feelings or unnecessary knowledge,
-using them as an excuse. Fill your 'heart', 'stomach' and 'brain' with 'codes' instead!
--Chase_Stein</p>
+using them as an excuse. Fill your 'heart', 'stomach' and 'brain' with 'codes' instead!</p>
+					</header>
 
-//<p>For online documentation and support please refer to
-//<a href="http://nginx.org/">nginx.org</a>.<br/>
-//Commercial support is available at
-//<a href="http://nginx.com/">nginx.com</a>.</p>
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Cjoaquin</span>
+					</footer>
 
-<p><em>Thank you for you are born to code.</em></p>
-</body>
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
 </html>
